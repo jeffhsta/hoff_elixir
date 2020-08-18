@@ -22,8 +22,8 @@ defmodule Hoff.MixProject do
   defp deps do
     [
       {:credo, "~> 1.4", only: :dev},
-      {:crawly, "~> 0.10.0"},
-      {:floki, "~> 0.26.0"}
+      {:floki, "~> 0.26.0"},
+      {:httpoison, "~> 1.7"}
     ]
   end
 
